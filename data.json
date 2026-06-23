@@ -55,7 +55,8 @@
           "u": "https://halfghanfoodremix.com/sheer-chai/"
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "TM": {
     "cuisine": "",
@@ -107,7 +108,8 @@
           "u": "https://balkanlunchbox.com/fermented-juniper-berry-juice-smreka/"
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "DZ": {
     "cuisine": "https://en.wikipedia.org/wiki/Algerian_cuisine",
@@ -150,7 +152,8 @@
           "u": "https://www.seriouseats.com/mazagran-coffee-iced-coffee-lemonade-8647476"
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "AO": {
     "cuisine": "https://en.wikipedia.org/wiki/Angolan_cuisine",
@@ -195,7 +198,8 @@
           "u": "https://nationalfoods.org/recipes/national-drink-of-angola-kissangua/"
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "AD": {
     "cuisine": "https://en.wikipedia.org/wiki/Catalan_cuisine",
@@ -234,7 +238,8 @@
         }
       ],
       "beverage": []
-    }
+    },
+    "cooked": true
   },
   "AG": {
     "cuisine": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda_cuisine",
@@ -278,7 +283,8 @@
         }
       ],
       "beverage": []
-    }
+    },
+    "cooked": true
   },
   "AR": {
     "cuisine": "",
@@ -337,7 +343,8 @@
         }
       ],
       "beverage": []
-    }
+    },
+    "cooked": true
   },
   "AM": {
     "cuisine": "https://en.wikipedia.org/wiki/Armenian_cuisine",
@@ -391,7 +398,8 @@
           "u": "https://www.mariaushakova.com/2014/07/tan-armenian-yogurt-drink/"
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "AU": {
     "cuisine": "",
@@ -431,7 +439,8 @@
           "note": "Can't remember which one I picked but it was awesome"
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "AT": {
     "cuisine": "https://en.wikipedia.org/wiki/Austrian_cuisine",
@@ -495,6 +504,19 @@
           "note": ""
         }
       ]
+    }
+  },
+  "AZ": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
     }
   }
 }
