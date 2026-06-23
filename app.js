@@ -51,7 +51,7 @@ if (typeof document !== 'undefined') {
   let research = false;
   const save = () => localStorage.setItem('food-db', JSON.stringify(DB));
   const has = code => DB[code] && (DB[code].short || DB[code].sel || DB[code].cuisine);
-  const complete = code => DB[code] && ['food', 'dessert'].every(cat => (DB[code].sel[cat] || []).length); // beverage optional — often hard to find
+  const complete = code => !!(DB[code] && DB[code].cooked); // orange/✓ = actually cooked, not just planned
   const blank = () => ({ cuisine: '', short: { food: [], dessert: [], beverage: [] }, sel: { food: [], dessert: [], beverage: [] } });
 
   const map = new jsVectorMap({
@@ -111,6 +111,11 @@ if (typeof document !== 'undefined') {
     panel.append(links);
 
     if (research) {
+      const cb = el('input', { type: 'checkbox', checked: !!c.cooked });
+      cb.onchange = () => { c.cooked = cb.checked; save(); paintMap(); render(); };
+      const cl = el('label', { style: 'display:flex;gap:.4rem;align-items:center;margin:.3rem 0;font-weight:600' });
+      cl.append(cb, ' Cooked');
+      panel.append(cl);
       const ov = el('input', { value: c.cuisine || '', placeholder: 'paste real cuisine-page URL (optional)', style: 'width:100%;padding:.3rem;border:1px solid #e3ddd2;border-radius:6px;margin-bottom:.5rem' });
       ov.oninput = () => { c.cuisine = ov.value.trim(); save(); };
       panel.append(ov);
