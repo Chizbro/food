@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  command = "mkdir -p dist && cp index.html app.js data.json dist/"
+  publish = "dist"
 
 [functions]
   directory = "netlify/functions"
