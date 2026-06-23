@@ -1,0 +1,500 @@
+{
+  "AF": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "aush",
+        "kabuli pulao",
+        "shorwa,",
+        "adoo",
+        "achar",
+        "borani banjn",
+        "karam",
+        "dopiaza",
+        "mantu",
+        "aloo baloo palow",
+        "afghan aushak",
+        "moraba havij",
+        "murab-e-kadu"
+      ],
+      "dessert": [
+        "sheer birinj"
+      ],
+      "beverage": [
+        "sheer chai"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Muraba e kadu",
+          "u": "https://www.afghanaid.org.uk/muraba-e-kadu-recipe"
+        },
+        {
+          "n": "Achar",
+          "u": "https://afghancooks.com/achar-recipe-afghan-pickled-vegetables/"
+        },
+        {
+          "n": "Aloo baloo palow",
+          "u": "https://afghancooks.com/aloo-baloo-palow-sour-cherry-rice/"
+        },
+        {
+          "n": "Aush",
+          "u": "https://www.pickuplimes.com/recipe/aush-bean-noodle-soup-408"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Sheer Birinj",
+          "u": "https://afghancooks.com/afghan-rice-pudding-sheer-birinj/"
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Sheer chai",
+          "u": "https://halfghanfoodremix.com/sheer-chai/"
+        }
+      ]
+    }
+  },
+  "TM": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "AL": {
+    "cuisine": "https://en.wikipedia.org/wiki/Albanian_cuisine",
+    "short": {
+      "food": [
+        "Tave Kosi",
+        "Fergese"
+      ],
+      "dessert": [
+        "Asure"
+      ],
+      "beverage": [
+        "Smreka or Kleka"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Tave Kosi",
+          "u": "https://albanianregistry.org/blog/tave-kosi"
+        },
+        {
+          "n": "Fergese",
+          "u": "https://spicetraveller.com/peppers-and-tomato-bake-fergese/"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Asure",
+          "u": "https://www.thespruceeats.com/turkish-noahs-ark-pudding-3274180"
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Smreka or Kleka",
+          "u": "https://balkanlunchbox.com/fermented-juniper-berry-juice-smreka/"
+        }
+      ]
+    }
+  },
+  "DZ": {
+    "cuisine": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+    "short": {
+      "food": [
+        "ctitha batata",
+        "Algerian roast chicken",
+        "dersa",
+        "khobz el dar",
+        "chorba hamra del freek",
+        "baghrir"
+      ],
+      "dessert": [
+        "dziriat"
+      ],
+      "beverage": [
+        "mazagran"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Algerian roast chicken",
+          "u": "https://www.allrecipes.com/recipe/258886/poulet-roti-a-lalgerienne-algerian-roast-chicken/"
+        },
+        {
+          "n": "Chorba hamra del freek",
+          "u": "https://www.allrecipes.com/recipe/264552/chorba-hamra-bel-frik-algerian-lamb-tomato-and-freekeh-soup/"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Dziriat",
+          "u": "https://africanvibes.com/recipe/dziriat-algerian-almond-tarts/"
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Mazagrn",
+          "u": "https://www.seriouseats.com/mazagran-coffee-iced-coffee-lemonade-8647476"
+        }
+      ]
+    }
+  },
+  "AO": {
+    "cuisine": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+    "short": {
+      "food": [
+        "Moambe Chicken",
+        "Kizaca",
+        "Pirão"
+      ],
+      "dessert": [
+        "Pe de moleque",
+        "Cocada Amerala"
+      ],
+      "beverage": [
+        "Kissangua"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Moambe Chicken",
+          "u": "https://explorers.kitchen/recipes/mains/moambe-chicken/"
+        },
+        {
+          "n": "Kizaca",
+          "u": "https://www.tasteatlas.com/kizaka"
+        },
+        {
+          "n": "Pirao",
+          "u": "https://www.tasteatlas.com/pirao"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Cocada Amerala",
+          "u": "https://www.whats4eats.com/desserts/cocada-amarela-recipe"
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Kissangua",
+          "u": "https://nationalfoods.org/recipes/national-drink-of-angola-kissangua/"
+        }
+      ]
+    }
+  },
+  "AD": {
+    "cuisine": "https://en.wikipedia.org/wiki/Catalan_cuisine",
+    "short": {
+      "food": [
+        "duck with winter pear",
+        "Escudella",
+        "Trinxat",
+        "Rabbit stew"
+      ],
+      "dessert": [
+        "Bunyols de vent",
+        "Creme al Andoran"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Escudella",
+          "u": "https://visitandorra.com/en/gastronomy/andorran-recipes/escudella-catalan-style-stew/"
+        },
+        {
+          "n": "Trinxat",
+          "u": "https://tenmorebites.com/2018/01/23/trinxat/"
+        },
+        {
+          "n": "Rabbit stew",
+          "u": "https://www.thespruceeats.com/spanish-rabbit-in-tomato-sauce-recipe-3083367"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Creme al Andoran",
+          "u": "https://visitandorra.com/en/gastronomy/andorran-recipes/crema-a-landorrana-andorrana-style-cream/"
+        }
+      ],
+      "beverage": []
+    }
+  },
+  "AG": {
+    "cuisine": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda_cuisine",
+    "short": {
+      "food": [
+        "Pepperpot",
+        "Callaloo",
+        "Fungee",
+        "Ducana"
+      ],
+      "dessert": [
+        "Sugar cakes"
+      ],
+      "beverage": [
+        "Mauby (fizz)"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Pepperpot",
+          "u": "https://kitchentalkandtravels.com/national-dish-of-antigua-pepperpot-and-fungee/"
+        },
+        {
+          "n": "Callaloo",
+          "u": "https://thatgirlcookshealthy.com/jamaican-callaloo/"
+        },
+        {
+          "n": "Fungee",
+          "u": "https://nationalfoods.org/recipes/national-dish-of-antigua-and-barbuda-fungee/"
+        },
+        {
+          "n": "Ducana",
+          "u": "https://tarasmulticulturaltable.com/ducana-antiguan-sweet-potato-dumpling/"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Sugar cakes",
+          "u": "https://thatgirlcookshealthy.com/grater-cake/"
+        }
+      ],
+      "beverage": []
+    }
+  },
+  "AR": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "provoletta",
+        "humita",
+        "French baguette",
+        "Choripan",
+        "Chimichurri",
+        "Empanadas",
+        "Locro"
+      ],
+      "dessert": [
+        "Alfajores",
+        "Medialunas",
+        "Dulce de batata"
+      ],
+      "beverage": [
+        "Wine",
+        "Yerba mate",
+        "Mate cocido"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "French Baguette",
+          "u": "https://tasteofartisan.com/french-baguette-recipe/"
+        },
+        {
+          "n": "Choripan",
+          "u": ""
+        },
+        {
+          "n": "Chimichurri",
+          "u": "https://cafedelites.com/authentic-chimichurri-uruguay-argentina/"
+        },
+        {
+          "n": "Empanadas",
+          "u": "https://tastesbetterfromscratch.com/empanadas/"
+        },
+        {
+          "n": "Locro",
+          "u": "https://www.notesfromamessykitchen.com/recipe/argentina-locro/"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Alfajores",
+          "u": "https://www.bbcgoodfood.com/recipes/alfajores"
+        },
+        {
+          "n": "Medialunas",
+          "u": "https://www.chileanfoodandgarden.com/argentinian-medialunas/"
+        }
+      ],
+      "beverage": []
+    }
+  },
+  "AM": {
+    "cuisine": "https://en.wikipedia.org/wiki/Armenian_cuisine",
+    "short": {
+      "food": [
+        "Lavash",
+        "Lahmoujan",
+        "Harissa",
+        "Mshosh"
+      ],
+      "dessert": [
+        "Choreg",
+        "Gata"
+      ],
+      "beverage": [
+        "Tan"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Lavash",
+          "u": "https://www.daringgourmet.com/lavash-bread/"
+        },
+        {
+          "n": "Lahmoujan",
+          "u": "https://www.bonappeteach.com/armenian-lahmajoun-recipe/"
+        },
+        {
+          "n": "Harissa",
+          "u": "https://www.seriouseats.com/harissa-armenian-wheat-and-chicken-porridge-recipe-5224855"
+        },
+        {
+          "n": "Mshosh",
+          "u": "https://www.curiouscuisiniere.com/mshosh-armenian-lentil-salad/"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Choreg",
+          "u": "https://www.seriouseats.com/choreg-armenian-easter-bread"
+        },
+        {
+          "n": "Gata",
+          "u": "https://www.seriouseats.com/gata-5185123"
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Tan",
+          "u": "https://www.mariaushakova.com/2014/07/tan-armenian-yogurt-drink/"
+        }
+      ]
+    }
+  },
+  "AU": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "lemon myrtle and pepper berry crusted kangaroo loin with mushrooms and beetroot and shiraz sauce"
+      ],
+      "dessert": [
+        "Lamington"
+      ],
+      "beverage": [
+        "South Australian Shiraz"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Native Spice Dukkah",
+          "u": "https://peppermintridgefarm.au/2016/11/27/summer-recipe-peppermint-ridge-make-native-creative-dukkah/"
+        },
+        {
+          "n": "Kangaroo",
+          "u": "https://shelleyxie1122.wixsite.com/website/post/kangaroo-fillet-with-mixed-native-australian-bush-spices-beetroot-textures-and-spiced-plum-sauce",
+          "note": "I used this and similar recipes as inspiration. Took away some of the sauce components as too much work and added mushrooms and peaches - pan fried together with butter and rosemary"
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Lamington",
+          "u": "https://www.andy-cooks.com/blogs/recipes/ultimate-lamingtons"
+        }
+      ],
+      "beverage": [
+        {
+          "n": "South Australian Shiraz",
+          "u": "",
+          "note": "Can't remember which one I picked but it was awesome"
+        }
+      ]
+    }
+  },
+  "AT": {
+    "cuisine": "https://en.wikipedia.org/wiki/Austrian_cuisine",
+    "short": {
+      "food": [
+        "Wienerschnitzel",
+        "Debrecener",
+        "Spinatknodel",
+        "Erdäpfelsalat"
+      ],
+      "dessert": [
+        "Powidel",
+        "Pofesen",
+        "Apple Streudel",
+        "Germknödel"
+      ],
+      "beverage": [
+        "Almdudler",
+        "Stiegel"
+      ]
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Schweineschnitzel",
+          "u": "https://www.daringgourmet.com/traditional-german-pork-schnitzel/",
+          "note": ""
+        },
+        {
+          "n": "Spinatknodel",
+          "u": "https://mydinner.co.uk/spinach-dumplings/",
+          "note": ""
+        },
+        {
+          "n": "Eerdapfelsalat",
+          "u": "https://www.seriouseats.com/erdapfelsalat-austrian-style-potato-salad-recipe",
+          "note": ""
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Powidl",
+          "u": "https://www.thebreadshebakes.com/2017/02/powidl-recipe-plum-preserve/",
+          "note": ""
+        },
+        {
+          "n": "Apfelstreudel",
+          "u": "https://www.lilvienna.com/original-viennese-apple-strudel/",
+          "note": "I am not looking foward to this"
+        },
+        {
+          "n": "Germknodel",
+          "u": "https://www.carolinescooking.com/germknodel-austrian-filled-sweet-dumplings/",
+          "note": ""
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Almdudler",
+          "u": "https://food52.com/recipes/77911-alpine-apple-soda-syrup",
+          "note": ""
+        }
+      ]
+    }
+  }
+}
