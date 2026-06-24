@@ -550,5 +550,18 @@
       "dessert": [],
       "beverage": []
     }
+  },
+  "BS": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
   }
 }
