@@ -509,9 +509,41 @@
   "AZ": {
     "cuisine": "",
     "short": {
+      "food": [
+        "Plov",
+        "Dolma",
+        "Levengi",
+        "Qurut",
+        "Bozbash",
+        "Dovga",
+        "Gürzə"
+      ],
+      "dessert": [
+        "Shekerbura",
+        "Shorgoghal",
+        "Pahklava"
+      ],
+      "beverage": [
+        "Tea",
+        "Sherbet",
+        "Khoshab",
+        "Burza"
+      ]
+    },
+    "sel": {
       "food": [],
       "dessert": [],
       "beverage": []
+    }
+  },
+  "TR": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
+      "beverage": [
+        "Ayran"
+      ]
     },
     "sel": {
       "food": [],
