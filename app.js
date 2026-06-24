@@ -91,10 +91,16 @@ if (typeof document !== 'undefined') {
     }
   }
 
+  const focusMap = code => {
+    if (map.regions[code]) map.setFocus({ region: code, animate: true });
+    else if (COORDS[code]) map.setFocus({ coords: COORDS[code], scale: 6, animate: true }); // microstate: zoom to its spot
+  };
+
   function render() {
     const code = decodeURIComponent(location.hash.slice(1));
     const panel = $('#panel');
     if (!CODESET.has(code)) { panel.innerHTML = '<p class="muted">Pick a country on the map or search above.</p>'; return; }
+    focusMap(code);
     if (research && !DB[code]) { DB[code] = blank(); save(); paintMap(); }
     const c = DB[code];
     const name = NAME(code);
@@ -187,9 +193,7 @@ if (typeof document !== 'undefined') {
     list.forEach(c => {
       const d = el('div', {}, c.name + (complete(c.code) ? ' ✓' : has(c.code) ? ' ·' : ''));
       d.onclick = () => {
-        location.hash = c.code;
-        if (map.regions[c.code]) map.setFocus({ region: c.code, animate: true });
-        else if (COORDS[c.code]) map.setFocus({ coords: COORDS[c.code], scale: 6, animate: true }); // microstate: zoom to its spot
+        location.hash = c.code; // render() focuses the map
         results.classList.add('hide'); search.value = '';
       };
       results.append(d);
