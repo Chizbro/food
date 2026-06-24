@@ -108,6 +108,16 @@ if (typeof document !== 'undefined') {
     const links = el('p', { className: 'links' });
     links.append(el('a', { href: wikiCountry(name), target: '_blank', rel: 'noopener' }, 'Wikipedia ↗'));
     links.append(el('a', { href: wikiCuisine(demonym(code), c.cuisine), target: '_blank', rel: 'noopener' }, demonym(code) + ' cuisine ↗'));
+    const url = location.origin + location.pathname + '#' + code;
+    const share = el('button', { style: 'margin-left:1rem' }, 'Share');
+    share.onclick = async () => {
+      try {
+        if (navigator.share) return await navigator.share({ title: 'Eating the World — ' + name, url });
+        await navigator.clipboard.writeText(url);
+        share.textContent = 'Copied ✓'; setTimeout(() => share.textContent = 'Share', 1500);
+      } catch { /* user dismissed share sheet */ }
+    };
+    links.append(share);
     panel.append(links);
 
     if (research) {
