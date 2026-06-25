@@ -581,9 +581,25 @@
           "n": "Old Sour",
           "u": "https://www.internationalcuisine.com/old-sour/",
           "note": ""
+        },
+        {
+          "n": "Boil Fish",
+          "u": "https://gypsyplate.com/bahamian-boiled-fish/",
+          "note": ""
+        },
+        {
+          "n": "Crack Conch",
+          "u": "",
+          "note": "I should really do this but I don't think I can get conch"
         }
       ],
-      "dessert": [],
+      "dessert": [
+        {
+          "n": "Duff",
+          "u": "https://www.cookist.com/guava-duff-bahamian-steamed-pudding-with-rum-sauce/",
+          "note": ""
+        }
+      ],
       "beverage": [
         {
           "n": "Coconut washed rum",
