@@ -554,14 +554,53 @@
   "BS": {
     "cuisine": "",
     "short": {
-      "food": [],
-      "dessert": [],
-      "beverage": []
+      "food": [
+        "Peas and rice",
+        "Old sour",
+        "Cracked conch",
+        "Boil fish"
+      ],
+      "dessert": [
+        "Duff"
+      ],
+      "beverage": [
+        "Switcha",
+        "Coconut washed rum",
+        "Goombay smash",
+        "Switcha"
+      ]
     },
     "sel": {
-      "food": [],
+      "food": [
+        {
+          "n": "Peas and rice",
+          "u": "https://jehancancook.com/2022/04/bahamian-style-peas-and-rice/",
+          "note": ""
+        },
+        {
+          "n": "Old Sour",
+          "u": "https://www.internationalcuisine.com/old-sour/",
+          "note": ""
+        }
+      ],
       "dessert": [],
-      "beverage": []
+      "beverage": [
+        {
+          "n": "Coconut washed rum",
+          "u": "https://dishesdelish.com/coconut-washed-rum/",
+          "note": ""
+        },
+        {
+          "n": "Goombay smash",
+          "u": "https://www.diffordsguide.com/cocktails/recipe/887/goombay-smash",
+          "note": ""
+        },
+        {
+          "n": "Sky juice",
+          "u": "https://www.firstordergin.com/sky-juice/",
+          "note": ""
+        }
+      ]
     }
   }
 }
