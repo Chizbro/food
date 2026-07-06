@@ -624,9 +624,28 @@
   "BH": {
     "cuisine": "",
     "short": {
-      "food": [],
-      "dessert": [],
-      "beverage": []
+      "food": [
+        "Machboos",
+        "Masli",
+        "Fi ga'atah",
+        "Harees",
+        "Jireesh",
+        "Mahyawa",
+        "Muhammar",
+        "Quzi"
+      ],
+      "dessert": [
+        "Halwa",
+        "Ghuraiba",
+        "Qirs altaabi",
+        "Gaimat",
+        "Zalabia"
+      ],
+      "beverage": [
+        "Qahwah",
+        "Laban",
+        "Karak"
+      ]
     },
     "sel": {
       "food": [],
