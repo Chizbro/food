@@ -539,7 +539,9 @@
   "TR": {
     "cuisine": "",
     "short": {
-      "food": [],
+      "food": [
+        "Ezogelin soup"
+      ],
       "dessert": [],
       "beverage": [
         "Ayran"
@@ -617,6 +619,586 @@
           "note": ""
         }
       ]
+    }
+  },
+  "BH": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "BD": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Maas Brian",
+        "Shukto",
+        "Luchi"
+      ],
+      "dessert": [
+        "Sondesh",
+        "Pathishaptha"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "BR": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Feijoada"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "CN": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Pigs trotter in black vinegar",
+        "Macau tamarind pork",
+        "Chicken feet",
+        "Char kway teow",
+        "Bau"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "DK": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [
+        "Citronmåne"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "EG": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Khoshari",
+        "Buftek"
+      ],
+      "dessert": [
+        "Umm Ali",
+        "Rose honey"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "FR": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [
+        "Canelé"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "DE": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Sauerbraten",
+        "Spaetzel",
+        "Pretzel"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "HU": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Liptauer"
+      ],
+      "dessert": [
+        "Marillenknodel"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "IS": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Rugbraud"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "IN": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Salmon Biryani"
+      ],
+      "dessert": [
+        "Gulab Jamun",
+        "Kulfi ice cream"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "IR": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Koolochech",
+        "Khoresh aloo eafenaj",
+        "Tahdig"
+      ],
+      "dessert": [
+        "Masghati"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "IT": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Braciole"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "JM": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Beef patty"
+      ],
+      "dessert": [
+        "Buster candy"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "LB": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Znoud el sit"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [
+        {
+          "n": "Atayef bil ashta",
+          "u": "",
+          "note": ""
+        }
+      ],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "LY": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Kufta bin national",
+        "Bazin",
+        "Meat stew"
+      ],
+      "dessert": [
+        "Diblah",
+        "Babousa"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "MY": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Nasi lemak"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "MV": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [
+        "Bus halva pots",
+        "Tropical fruit salad"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "MU": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [
+        "Banana spring rolls with salted caramel"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "MX": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
+      "beverage": [
+        "Horchata",
+        "Jamaica"
+      ]
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "MA": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Baghrir"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "NP": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Thukpa"
+      ],
+      "dessert": [],
+      "beverage": [
+        "Kagati ko Sharbat"
+      ]
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "PK": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [
+        "Shahi tukra"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "PY": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [
+        "Dulce de batata"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "PE": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Pollo a la brasa"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "PL": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Bigos"
+      ],
+      "dessert": [
+        "Cherry parkatpa"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "SN": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Joloff rice"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "SO": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Lamb suqaar",
+        "Injera"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "ZA": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Bunny chow"
+      ],
+      "dessert": [
+        "Koeksister"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "LK": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Ambul fish",
+        "Kumo raal"
+      ],
+      "dessert": [
+        "Thala guli"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "SY": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Bulgar pot",
+        "Djej mashwee"
+      ],
+      "dessert": [
+        "Mushabbak",
+        "Kunefe"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "UA": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Vareniki"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "GB": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [
+        "Bara brith"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "US": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Italian beef"
+      ],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "YE": {
+    "cuisine": "",
+    "short": {
+      "food": [
+        "Mutton mandi",
+        "Carrot rice",
+        "Zhug"
+      ],
+      "dessert": [
+        "Khaliat nahal"
+      ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
     }
   }
 }
