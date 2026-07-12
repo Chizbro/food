@@ -691,9 +691,37 @@
       ]
     },
     "sel": {
-      "food": [],
-      "dessert": [],
-      "beverage": []
+      "food": [
+        {
+          "n": "Machboos",
+          "u": "https://www.daringgourmet.com/chicken-machboos-bahraini-chicken-rice/",
+          "note": ""
+        },
+        {
+          "n": "Fega'ata",
+          "u": "https://www.souschef.co.uk/blogs/the-bureau-of-taste/fega-ata-recipe-bottom-of-the-pot-chicken-and-rice-by-noor-murad",
+          "note": ""
+        },
+        {
+          "n": "Muhammar",
+          "u": "https://www.food.com/recipe/bahraini-sweet-rice-muhammar-443553",
+          "note": ""
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Halwan Bahraini",
+          "u": "https://www.196flavors.com/bahrain-halwa-bahraini/",
+          "note": ""
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Karak",
+          "u": "https://everylittlecrumb.com/karak-chai/",
+          "note": ""
+        }
+      ]
     }
   },
   "BD": {
@@ -891,7 +919,9 @@
       "food": [
         "Braciole"
       ],
-      "dessert": [],
+      "dessert": [
+        "Zabaione"
+      ],
       "beverage": []
     },
     "sel": {
