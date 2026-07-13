@@ -706,6 +706,11 @@
           "n": "Muhammar",
           "u": "https://www.food.com/recipe/bahraini-sweet-rice-muhammar-443553",
           "note": ""
+        },
+        {
+          "n": "Mahyawa",
+          "u": "https://www.google.com/search?client=ms-android-google&hs=gtZV&sca_esv=a707d86a229c684a&sxsrf=APpeQnuv8AYA7zcDul23bvHC8GfhWfZ2fg:1783861401589&q=how+to+make+mahyawa&sa=X&ved=2ahUKEwix-a3Jmc2VAxX7lFYBHWX4Cw8Q7xYoAHoECA4QAQ&biw=426&bih=755&dpr=2.25",
+          "note": ""
         }
       ],
       "dessert": [
@@ -730,18 +735,34 @@
       "food": [
         "Maas Brian",
         "Shukto",
-        "Luchi"
+        "Luchi",
+        "Kala Bhuna",
+        "Shorshe ilish"
       ],
       "dessert": [
         "Sondesh",
-        "Pathishaptha"
+        "Pathishaptha",
+        "Rosogolla",
+        "Bakarkhani",
+        "Durus Kura",
+        "Akhni",
+        "Kichdi",
+        "Hutki Shirah"
       ],
-      "beverage": []
+      "beverage": [
+        "Roo afzah"
+      ]
     },
     "sel": {
       "food": [],
       "dessert": [],
-      "beverage": []
+      "beverage": [
+        {
+          "n": "Roo hafza",
+          "u": "https://hebbarskitchen.com/roohafza-sharbat-recipe-homemade-ruabja/",
+          "note": ""
+        }
+      ]
     }
   },
   "BR": {
