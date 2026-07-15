@@ -737,25 +737,47 @@
         "Shukto",
         "Luchi",
         "Kala Bhuna",
-        "Shorshe ilish"
-      ],
-      "dessert": [
-        "Sondesh",
-        "Pathishaptha",
-        "Rosogolla",
+        "Shorshe ilish",
         "Bakarkhani",
         "Durus Kura",
         "Akhni",
         "Kichdi",
         "Hutki Shirah"
       ],
+      "dessert": [
+        "Sondesh",
+        "Pathishaptha",
+        "Rosogolla"
+      ],
       "beverage": [
         "Roo afzah"
       ]
     },
     "sel": {
-      "food": [],
-      "dessert": [],
+      "food": [
+        {
+          "n": "Kala Bhuna",
+          "u": "https://pikturenama.com/mutton-kala-bhuna-recipe/",
+          "note": ""
+        },
+        {
+          "n": "Shorshe Ilish",
+          "u": "https://www.thespiceodyssey.com/eat/shorshe-ilish",
+          "note": ""
+        },
+        {
+          "n": "Akhni",
+          "u": "https://www.thecurryclubhomecooking.com/post/bangladeshi-akhni-by-shams-razzak",
+          "note": ""
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Sondesh",
+          "u": "https://www.bongcookbook.com/2012/10/sondesh-fabled-bengali-sandesh.html?m=1",
+          "note": ""
+        }
+      ],
       "beverage": [
         {
           "n": "Roo hafza",
@@ -1306,6 +1328,19 @@
       "dessert": [
         "Khaliat nahal"
       ],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
+  },
+  "BB": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
       "beverage": []
     },
     "sel": {
