@@ -1339,9 +1339,23 @@
   "BB": {
     "cuisine": "",
     "short": {
-      "food": [],
-      "dessert": [],
-      "beverage": []
+      "food": [
+        "Brown stew chicken",
+        "Cou-cou and Fried flying fish",
+        "Rice and peas",
+        "Pepper sauce",
+        "Pigtails",
+        "Pudding and souse"
+      ],
+      "dessert": [
+        "Sweet potato pie",
+        "Goibada",
+        "Black cake"
+      ],
+      "beverage": [
+        "Hibiscus tea",
+        "Mauby"
+      ]
     },
     "sel": {
       "food": [],
