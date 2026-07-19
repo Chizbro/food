@@ -1358,9 +1358,37 @@
       ]
     },
     "sel": {
-      "food": [],
-      "dessert": [],
-      "beverage": []
+      "food": [
+        {
+          "n": "Brown stew chicken",
+          "u": "https://caribbeanpot.com/caribbean-stew-chicken-brown-stew-with-potato/",
+          "note": ""
+        },
+        {
+          "n": "Rice and peas",
+          "u": "https://globaltableadventure.com/recipe/peas-n-rice/",
+          "note": ""
+        },
+        {
+          "n": "Pepper sauce",
+          "u": "https://barbados.org/barbados-recipes-bajan-pepper-sauce.htm",
+          "note": ""
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Black cake",
+          "u": "https://www.alicaspepperpot.com/black-cake-caribbean-rum-soaked-fruit-cake/",
+          "note": ""
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Mauby fizz",
+          "u": "https://caribbeansydney.com.au/product/matouks-mauby-750ml/",
+          "note": ""
+        }
+      ]
     }
   }
 }
