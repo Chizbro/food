@@ -509,7 +509,8 @@
           "note": ""
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "AZ": {
     "cuisine": "",
