@@ -573,7 +573,8 @@
           "note": ""
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "TR": {
     "cuisine": "",
