@@ -49,7 +49,9 @@ if (typeof document !== 'undefined') {
 
   let DB = JSON.parse(localStorage.getItem('food-db') || 'null');
   let research = false;
-  const save = () => localStorage.setItem('food-db', JSON.stringify(DB));
+  let published = null; // last-known committed data.json, as JSON text — baseline for the dirty check
+  const updateDirty = () => $('#dirty').classList.toggle('hide', published === null || JSON.stringify(DB) === published);
+  const save = () => { localStorage.setItem('food-db', JSON.stringify(DB)); updateDirty(); };
   const has = code => DB[code] && (DB[code].short || DB[code].sel || DB[code].cuisine);
   const complete = code => !!(DB[code] && DB[code].cooked); // orange/✓ = actually cooked, not just planned
   const blank = () => ({ cuisine: '', short: { food: [], dessert: [], beverage: [] }, sel: { food: [], dessert: [], beverage: [] } });
@@ -243,6 +245,7 @@ if (typeof document !== 'undefined') {
         body: JSON.stringify(DB),
       });
       msg = res.ok ? 'Published ✓ (live in ~1 min)' : res.status === 401 ? 'Bad token' : 'Failed';
+      if (res.ok) { published = JSON.stringify(DB); updateDirty(); }
     } catch { /* network */ }
     btn.textContent = msg;
     setTimeout(() => { btn.textContent = was; btn.disabled = false; }, 3000);
@@ -250,7 +253,11 @@ if (typeof document !== 'undefined') {
 
   window.addEventListener('hashchange', render);
 
-  // seed from committed data.json unless we have local edits
-  (DB ? Promise.resolve() : fetch('data.json').then(r => r.json()).catch(() => ({})).then(d => { DB = d || {}; }))
-    .then(() => { paintMap(); render(); });
+  // always fetch the committed data.json: it seeds DB when there are no local edits, and either way
+  // it's the baseline the dirty indicator compares local drafts against.
+  fetch('data.json').then(r => r.json()).catch(() => ({})).then(d => {
+    published = JSON.stringify(d || {});
+    if (!DB) DB = d || {};
+    paintMap(); render(); updateDirty();
+  });
 }
