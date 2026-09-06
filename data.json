@@ -659,7 +659,8 @@
           "note": ""
         }
       ]
-    }
+    },
+    "cooked": true
   },
   "BH": {
     "cuisine": "",
