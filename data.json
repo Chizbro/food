@@ -1387,5 +1387,18 @@
         }
       ]
     }
+  },
+  "BY": {
+    "cuisine": "",
+    "short": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    },
+    "sel": {
+      "food": [],
+      "dessert": [],
+      "beverage": []
+    }
   }
 }
