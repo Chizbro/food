@@ -41,6 +41,8 @@ if (typeof module !== 'undefined') module.exports = { wikiCountry, wikiCuisine, 
 
 // --- browser app (skipped under node so the helpers stay testable) ---
 if (typeof document !== 'undefined') {
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+
   const REGION = new Intl.DisplayNames(['en'], { type: 'region' }); // native code→name, no data file
   const NAME = code => { try { return REGION.of(code) || code; } catch { return code; } };
 

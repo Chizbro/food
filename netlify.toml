@@ -1,6 +1,16 @@
 [build]
-  command = "mkdir -p dist && cp index.html app.js data.json dist/"
+  command = "mkdir -p dist/icons && cp index.html app.js data.json manifest.webmanifest sw.js dist/ && cp icons/*.png dist/icons/"
   publish = "dist"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
 
 [functions]
   directory = "netlify/functions"
