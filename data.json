@@ -741,7 +741,8 @@
         "Akhni",
         "Kichdi",
         "Hutki Shirah",
-        "Sheem bhaji"
+        "Sheem bhaji",
+        "Bhorta"
       ],
       "dessert": [
         "Sondesh",
@@ -767,6 +768,11 @@
         {
           "n": "Sheem bhaji",
           "u": "https://www.greatbritishchefs.com/recipes/sheem-bhaji-recipe",
+          "note": ""
+        },
+        {
+          "n": "Bhorta",
+          "u": "https://www.thespiceodyssey.com/eat/bhorta-1",
           "note": ""
         }
       ],
