@@ -740,7 +740,8 @@
         "Durus Kura",
         "Akhni",
         "Kichdi",
-        "Hutki Shirah"
+        "Hutki Shirah",
+        "Sheem bhaji"
       ],
       "dessert": [
         "Sondesh",
@@ -761,6 +762,11 @@
         {
           "n": "Shorshe Ilish",
           "u": "https://www.thespiceodyssey.com/eat/shorshe-ilish",
+          "note": ""
+        },
+        {
+          "n": "Sheem bhaji",
+          "u": "https://www.greatbritishchefs.com/recipes/sheem-bhaji-recipe",
           "note": ""
         }
       ],
