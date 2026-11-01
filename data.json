@@ -1400,9 +1400,29 @@
   "BY": {
     "cuisine": "",
     "short": {
-      "food": [],
-      "dessert": [],
-      "beverage": []
+      "food": [
+        "Polivka",
+        "Garbuzok",
+        "Polyandvitsa",
+        "Verashchaka",
+        "Zrazy",
+        "Kalduny",
+        "Potato babka",
+        "Draniki",
+        "Białowieża salad",
+        "Buckwheat kasha"
+      ],
+      "dessert": [
+        "Cranberry Kisiel",
+        "Rogaliki",
+        "Babina kasa"
+      ],
+      "beverage": [
+        "Kompot",
+        "Saladukha",
+        "Kissel",
+        "Kvass"
+      ]
     },
     "sel": {
       "food": [],
