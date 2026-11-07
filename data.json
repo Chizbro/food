@@ -1425,9 +1425,37 @@
       ]
     },
     "sel": {
-      "food": [],
-      "dessert": [],
-      "beverage": []
+      "food": [
+        {
+          "n": "Draniki",
+          "u": "https://www.internationalcuisine.com/draniki/",
+          "note": ""
+        },
+        {
+          "n": "Polivka",
+          "u": "https://inmyfridge.app/en-AU/recipes/belarusian-polivka",
+          "note": ""
+        }
+      ],
+      "dessert": [
+        {
+          "n": "Solodukha",
+          "u": "https://inmyfridge.app/recipes/belarusian-solodukha",
+          "note": ""
+        },
+        {
+          "n": "Rugelach",
+          "u": "https://mykoshercooking.com/recipes/rugelach/",
+          "note": ""
+        }
+      ],
+      "beverage": [
+        {
+          "n": "Kisel",
+          "u": "https://foreignfork.com/kissel/",
+          "note": ""
+        }
+      ]
     }
   },
   "BE": {
