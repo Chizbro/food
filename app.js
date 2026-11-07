@@ -1,7 +1,7 @@
 // Eating the World — single-file app logic.
 // Data model: DB[code] = { cuisine?, short:{food,dessert,beverage}, sel:{...} }
 // Presence of a code = "has a page" (fills on the map). Edits live in localStorage (drafts);
-// Publish POSTs to /api/publish, which commits data.json to the repo (owner-only via token).
+// Publish POSTs to /api/publish. The server writes data.json, then commits that file to the repo.
 
 const CATS = ['food', 'dessert', 'beverage'];
 
@@ -246,7 +246,8 @@ if (typeof document !== 'undefined') {
         headers: { Authorization: 'Bearer ' + $('#token').value.trim(), 'Content-Type': 'application/json' },
         body: JSON.stringify(DB),
       });
-      msg = res.ok ? 'Published ✓ (live in ~1 min)' : res.status === 401 ? 'Bad token' : 'Failed';
+      const body = await res.json().catch(() => ({}));
+      msg = res.status === 401 ? 'Bad token' : !res.ok ? 'Failed' : body.github === false ? 'Saved · GitHub backup failed' : 'Published ✓';
       if (res.ok) { published = JSON.stringify(DB); updateDirty(); }
     } catch { /* network */ }
     btn.textContent = msg;

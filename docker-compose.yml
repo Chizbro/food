@@ -1,0 +1,25 @@
+# Data on the host, mounted at /data:
+#   ~/data/food/data.json
+#
+# Listens only on 127.0.0.1:8375. Caddy on lab1 publishes
+# https://food.tail76da76.ts.net via bind tailscale/food.
+#
+# Secrets live in .env (not committed): EDIT_TOKEN, GH_TOKEN.
+
+name: food
+
+services:
+  food:
+    build: .
+    init: true
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8375:8080"
+    env_file: .env
+    environment:
+      DATA_DIR: /data
+      PORT: "8080"
+      GH_REPO: Chizbro/food
+      GH_BRANCH: main
+    volumes:
+      - ~/data/food:/data
