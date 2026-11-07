@@ -1413,59 +1413,29 @@
         "Buckwheat kasha"
       ],
       "dessert": [
+        "Cranberry Kisiel",
         "Rogaliki",
-        "Babina kasa",
-        "Solodukha"
+        "Babina kasa"
       ],
       "beverage": [
         "Kompot",
+        "Saladukha",
         "Kissel",
         "Kvass"
       ]
     },
     "sel": {
-      "food": [
-        {
-          "n": "Draniki",
-          "u": "https://foreignfork.com/potato-pancakes/",
-          "note": ""
-        },
-        {
-          "n": "Bialowieza salad",
-          "u": "https://www.google.com/search?q=Belarus+Bia%C5%82owie%C5%BCa+salad+recipe&sxsrf=AKL5yDhxem2bMziKd-v4O6QmDo7EGxHYWg:1793537917679&sec_act=sr#lfId=ChxjMe",
-          "note": ""
-        },
-        {
-          "n": "Polivka",
-          "u": "",
-          "note": ""
-        },
-        {
-          "n": "Verashchaka",
-          "u": "https://www.google.com/search?q=Belarus%20Verashchaka%20recipe#lfId=ChxjMe",
-          "note": ""
-        }
-      ],
-      "dessert": [
-        {
-          "n": "Solodukha",
-          "u": "https://www.wildfermentation.com/from-russia-with-love-solodukha-and-ryazhenka/#0",
-          "note": ""
-        }
-      ],
-      "beverage": [
-        {
-          "n": "Kissel",
-          "u": "https://foreignfork.com/kissel/",
-          "note": ""
-        }
-      ]
+      "food": [],
+      "dessert": [],
+      "beverage": []
     }
   },
-  "RU": {
+  "BE": {
     "cuisine": "",
     "short": {
-      "food": [],
+      "food": [
+        "Waffle"
+      ],
       "dessert": [],
       "beverage": []
     },
