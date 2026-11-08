@@ -1462,15 +1462,33 @@
     "cuisine": "",
     "short": {
       "food": [
-        "Waffle"
+        "Moules frites",
+        "Steak frites",
+        "Waterzooi",
+        "Flemish stew",
+        "Filet amèricain",
+        "Mayonnaise"
       ],
-      "dessert": [],
-      "beverage": []
+      "dessert": [
+        "Speculoos",
+        "Speculaas",
+        "Belgian waffle",
+        "Liège waffle",
+        "Couque de Dinant",
+        "Oliebol",
+        "Rijstevlaai",
+        "Babelutte"
+      ],
+      "beverage": [
+        "Jenever",
+        "Beer"
+      ]
     },
     "sel": {
       "food": [],
       "dessert": [],
       "beverage": []
-    }
+    },
+    "cooked": false
   }
 }
