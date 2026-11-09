@@ -100,6 +100,26 @@ if (typeof document !== 'undefined') {
     else if (COORDS[code]) map.setFocus({ coords: COORDS[code], scale: 6, animate: true }); // microstate: zoom to its spot
   };
 
+  // country-nav sticks just under the site header; header height changes with research controls and wrap
+  const pinHeader = () => document.documentElement.style.setProperty('--header-h', $('header').offsetHeight + 'px');
+  pinHeader();
+  new ResizeObserver(pinHeader).observe($('header'));
+
+  // one step in the same A–Z list search uses. No dest at either end of the list.
+  function stepBtn(dest, dir) {
+    const label = dir < 0 ? 'Previous country' : 'Next country';
+    const btn = el('button', {
+      type: 'button', disabled: !dest, title: dest ? dest.name : '',
+      ariaLabel: dest ? label + ', ' + dest.name : label,
+    }, dir < 0 ? '‹' : '›');
+    btn.onclick = () => {
+      if (!dest) return;
+      location.hash = dest.code;
+      $('#panel').scrollIntoView({ block: 'start' }); // new country starts under the header
+    };
+    return btn;
+  }
+
   function render() {
     const code = decodeURIComponent(location.hash.slice(1));
     const panel = $('#panel');
@@ -108,9 +128,12 @@ if (typeof document !== 'undefined') {
     if (research && !DB[code]) { DB[code] = blank(); save(); paintMap(); }
     const c = DB[code];
     const name = NAME(code);
+    const i = COUNTRIES.findIndex(x => x.code === code);
 
     panel.innerHTML = '';
-    panel.append(el('h2', {}, name));
+    const nav = el('div', { className: 'country-nav' });
+    nav.append(stepBtn(COUNTRIES[i - 1], -1), el('h2', {}, name), stepBtn(COUNTRIES[i + 1], 1));
+    panel.append(nav);
     if (!c) {
       panel.append(el('p', { className: 'muted' }, 'No page yet. Switch to Research mode to start one.'));
       return;
