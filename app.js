@@ -101,7 +101,7 @@ if (typeof document !== 'undefined') {
   };
 
   // country-nav sticks just under the site header; header height changes with research controls and wrap
-  const pinHeader = () => document.documentElement.style.setProperty('--header-h', $('header').offsetHeight + 'px');
+  const pinHeader = () => document.documentElement.style.setProperty('--header-h', $('header').getBoundingClientRect().height + 'px');
   pinHeader();
   new ResizeObserver(pinHeader).observe($('header'));
 
@@ -114,8 +114,11 @@ if (typeof document !== 'undefined') {
     }, dir < 0 ? '‹' : '›');
     btn.onclick = () => {
       if (!dest) return;
+      const scrolled = window.scrollY > 0;
       location.hash = dest.code;
-      $('#panel').scrollIntoView({ block: 'start' }); // new country starts under the header
+      if (!scrolled) return; // at the top, keep the bar where it is
+      const top = $('#panel').getBoundingClientRect().top + window.scrollY - $('header').getBoundingClientRect().height;
+      window.scrollTo(0, Math.max(0, top));
     };
     return btn;
   }
